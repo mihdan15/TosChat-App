@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:padding="7dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/pp1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/ic_baseline_person_24"
+        android:layout_alignParentLeft="true"/>
+
+    <ImageView
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtFriendNameChat"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/pp1"
+        android:src="@drawable/ic_dot"
+        android:layout_marginRight="6dp" />
+
+    <TextView
+        android:id="@+id/txtFriendNameChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/pp1"
+        android:text="Nama"
+        android:textColor="?attr/textFillColor"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFriendTextChat"
+        android:text="Chat"
+        android:textStyle="normal"
+        android:textSize="16sp"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/grey"
+        android:layout_toRightOf="@id/check"
+        android:layout_below="@id/txtFriendNameChat" />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="waktu"
+        android:textColor="@color/grey"
+        android:layout_marginTop="3dp"/>
+
+
+</RelativeLayout>

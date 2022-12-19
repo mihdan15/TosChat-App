@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SplashScreenActivity" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/tab_color</item>
+        <item name="colorPrimaryVariant">@color/tab_color</item>
+        <item name="colorOnPrimary">@color/tab_color</item>
+    </style>
+</resources>

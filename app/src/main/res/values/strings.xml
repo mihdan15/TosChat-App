@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TosChat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="camtext">Loading...</string>
+</resources>

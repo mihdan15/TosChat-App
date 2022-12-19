@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "716428403836",
+    "firebase_url": "https://toschat-6ceff-default-rtdb.firebaseio.com",
+    "project_id": "toschat-6ceff",
+    "storage_bucket": "toschat-6ceff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716428403836:android:aa26dc8fcbbe3d54af55f9",
+        "android_client_info": {
+          "package_name": "com.apps.toschat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716428403836-lt768qcg5j2kqgongijo2gmd1lpj3lq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.toschat",
+            "certificate_hash": "bc9d37f9060b757bd33b43d49abfa17e9ec76aaf"
+          }
+        },
+        {
+          "client_id": "716428403836-nt3hu4ucsfkesi33ee1vqpc6niucvu60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXDRsnWLUi5Mdg12dq2S29qEepqCMpSv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716428403836-nt3hu4ucsfkesi33ee1vqpc6niucvu60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

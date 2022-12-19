@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="?attr/colorPrimaryVariant"
+    tools:context=".SetupProfileActivity">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_baseline_person_24"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:civ_border_color="@color/tab_color"
+        app:civ_border_width="2dp"
+        app:civ_circle_background_color="@color/white"/>
+    <TextView
+        android:text="Informasi Profil"
+        android:textAlignment="center"
+        android:layout_marginTop="19dp"
+        android:textSize="20sp"
+        android:textStyle="bold|normal"
+        android:textColor="?attr/colorOnSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Masukkan Nama dan Foto Profil "
+        android:textAlignment="center"
+        android:layout_marginTop="19dp"
+        android:textSize="13sp"
+        android:textStyle="bold|normal"
+        android:textColor="?attr/colorOnSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.cardview.widget.CardView
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/nameBox"
+                android:hint="Masukkan Nama"
+                android:padding="10dp"
+                android:ems="1"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold|normal"
+                android:textColorHint="@color/grey"
+                android:background="@drawable/background_shape"
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:textColor="@color/white"
+                android:id="@+id/continueBtn02"
+                android:text="Buat Profil"
+                android:textSize="16sp"
+                android:textStyle="bold|normal"
+                android:textAllCaps="false"
+                android:backgroundTint="?attr/colorButtonNormal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
